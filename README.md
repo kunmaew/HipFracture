@@ -11,7 +11,7 @@ where t1.diagtype = '1' and t1.diagcode like '%L72%'
 ```
 
 
-<dl>diagtype<dl>
+>diagtype
   <dt>1. Principle Dx ( โรคหลักที่นำพาผู้ป่วยมาหาเรา)<dt>
   <dt>2. Comorbidity (โรคร่วมที่พบ หรือที่ผู้ป่วยเป็น)<dt>
   <dt>3. Complication (โรคแทรกซ้อน มักเป็นโรคที่เกิดจากผู้ป่วยที่ไป Admit ที่ รพ.)<dt>
