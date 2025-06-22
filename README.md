@@ -9,7 +9,8 @@ select distinct t1.hospcode,t1.pid,t1.seq,t1.date_serv,t1.diagtype,t1.diagcode
 from diagnosis_opd t1
 where t1.diagtype = '1' and t1.diagcode like '%L72%'
 ```
-HOSPCODE|PID|SEQ|DATE_SERV|DIAGTYPE|DIAGCODE
+|HOSPCODE|PID|SEQ|DATE_SERV|DIAGTYPE|DIAGCODE|
+|--------|---|---|---------|--------|--------|
 
 >diagtype
   >1. Principle Dx ( โรคหลักที่นำพาผู้ป่วยมาหาเรา)
